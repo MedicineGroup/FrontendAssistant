@@ -1,0 +1,12 @@
+/* Home.css */
+
+.Home {
+	display: flex;
+  }
+
+  .content {
+	flex: 1;
+	padding: 20px;
+	margin: 0 auto;
+  }
+  
