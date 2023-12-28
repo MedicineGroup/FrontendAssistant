@@ -1,10 +1,11 @@
 import React from 'react'
+import ConsulationsList from '../components/assistant/ConsulationsList'
 
 const Patients = () => {
   return (
-    <div>
-      <h1 className='text-center'>Consultations Page</h1>
-    </div>
+    <>
+    <ConsulationsList/>
+    </>
   )
 }
 

@@ -4,6 +4,7 @@ import LoginPage from "./pages/LoginPage";
 import ProtectedRoute from "./components/auth/ProtectedRoute";
 import Appointments from "./pages/Appointments";
 import Consultations from "./pages/Consultations";
+import ConsultationDetail from "./components/assistant/ConsultationDetail";
 
 
 
@@ -14,6 +15,8 @@ function App() {
       <Route path={ROUTES.HOME} element={<ProtectedRoute />}>
        <Route path={ROUTES.APPOINTMENTS} element={<Appointments />} />
        <Route path={ROUTES.CONSULTATIONS} element={<Consultations />} />
+       <Route path={ROUTES.CONSULATION_DETAIL} element={<ConsultationDetail/>}/>
+
       </Route>
     </Routes>
   );

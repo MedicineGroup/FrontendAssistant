@@ -1,10 +1,9 @@
 import React from 'react'
+import FilteredConsultations from '../components/assistant/FiltredConsultations'
 
 const Appointments = () => {
   return (
-    <div>
-      <h1 className='text-center'>Appointments page</h1>
-    </div>
+    <FilteredConsultations/>
   )
 }
 
